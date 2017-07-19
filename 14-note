@@ -1,0 +1,61 @@
+import turtle
+t=turtle.Turtle()
+
+t.home()
+t.clear()
+
+t.forward(100)
+t.left(90)
+t.forward(100)
+
+
+def rect(x,y,a):
+ t.up()
+ t.home()
+ t.forward(x)
+ t.left(90)
+ t.forward(y)
+ for i in range(4):
+   t.forward(a)
+   t.left(-90)
+#空行
+
+t.clear()
+rect(10.20.100)
+rect(10,-10,100)
+rect(-110,10,100)
+rect(-110,-110,100)
+
+
+class Dice:
+  face_num =　100
+  def shoot(self):
+    return random.randint(1, self.face_num)
+#空行
+
+import random
+aDice = Dice()#クラスを基にオブジェクトを作る
+aDice.shoot()#オブジェクトを使う
+
+問題169
+class Dice:
+  def __init__(self, val):
+    self.face_num = val
+  def shoot(self):
+    return random.randint(1, self.face_num)
+#空行
+
+import random
+aDice = Dice(12)
+aDice.shoot()
+
+問題170 Dice のクラス図を描け。
+問題171 新しいデータ型の定義は，（ ）キーワードで始めます。（教科書）
+問題172 メソッドを追加する場合は，1 つ目の引数に必ず（self ）を指定します。（教科書）
+問題173 初期化メソッドの実体は，（ __int__）という名前のメソッドです。（教科書）
+
+問題179
+python と打つ
+問題180
+
+問題181シェルのようなキーボードで操作するインターフェースを，（ cui）と呼びます。（教科書）

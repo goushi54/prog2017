@@ -1,0 +1,93 @@
+import turtle
+t = turtle.Turtle()
+
+t.home()
+t.clear()
+
+for x in range(4):
+ t.up()
+ t.forward(20)
+ t.down()
+ for x in range(4):
+  t.forward(100)
+  t.left(90)
+ t.left(-90)
+ 
+print ('hello')
+
+
+
+正三角形
+import turtle
+t = turtle.Turtle()
+
+t.home()
+t.clear()
+
+for i in range(3):
+ t.forward(100)
+ t.left(120)
+ 
+ print('left')
+ 
+(151)
+import turtle
+t = turtle.Turtle()
+
+t.home()
+t.clear()
+
+for i in range(6):
+ t.forward(100)
+ t.left(60)
+ 
+ print('left')
+
+153
+def func(v):
+ i=3
+ return i
+ 
+ func(5)
+ 
+(v)と(5)は引数と呼ぶ
+
+問題154
+def func(v):
+ i = v + 3
+ return i
+
+func(5)
+ 
+
+157
+def total(n):
+ s=0
+ for i in range(1,n + 1):
+  s +=i
+  return s
+  
+  total(5)
+  
+  total(10)
+  
+158
+import turtle
+turtle = turtle.Turtle()
+
+def center_circle():
+ turtle.penup()
+ turtle.forward(200)
+ turtle.left(90)
+ turtle.pendown()
+ turtle.circle(200)
+ turtle.left(90)
+ turtle.penup()
+ turtle.forward(200)
+ turtle.pendown()
+
+center_circle()
+
+160
+
+de
